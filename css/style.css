@@ -1,0 +1,112 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; /* Using a default professional font */
+}
+
+/* Body styles */
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Set a plain background color */
+}
+
+/* Heading styles */
+h1 {
+  color: #333;
+  font-family: "Roboto", Arial, sans-serif; /* Change to a professional font, 'Roboto' in this example */
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* Chat Ninja container styles */
+.chat {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a professional look */
+}
+
+/* Welcome message styles */
+.chat h2 {
+  font-size: 1.9rem;
+  font-family: "Roboto", Arial, sans-serif; /* Change to a professional font, 'Roboto' in this example */
+  /* text-align: center; */
+}
+
+/* Messages container styles */
+.msg {
+  width: 420px;
+  height: 480px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin: 1rem auto;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+/* Hide scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Input and send button styles */
+.input_msg {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Input field styles */
+input {
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 0.4rem 1.3rem;
+}
+
+/* Send button styles */
+.input_msg #btns {
+  background-color: #333;
+  color: #fff;
+
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+#btnl {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 0.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  vertical-align: middle;
+  font-size: 1.1rem;
+}
+
+/* Message styles */
+.msg p {
+  background-color: rgb(194, 192, 192);
+  padding: 0.4rem 1rem;
+  width: fit-content;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.msg p span {
+  display: block;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+/* Sender message styles */
+.msg .sender {
+  background-color: rgb(89, 255, 89);
+  align-self: end;
+}

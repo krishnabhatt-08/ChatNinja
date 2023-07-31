@@ -1,0 +1,71 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; /* Using a default professional font */
+}
+
+/* Login container styles */
+.login {
+  display: flex;
+  flex-direction: column; /* To stack the elements vertically */
+  align-items: center;
+  background-color: #fff;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a professional look */
+}
+
+/* Login heading styles */
+.login h2 {
+  font-size: 2.2rem;
+  text-align: center;
+  font-family: "Roboto", Arial, sans-serif; /* Change to a professional font, 'Roboto' in this example */
+  margin-bottom: 1rem;
+}
+.login h3 {
+  font-size: 1.1rem;
+  margin-top: 1.4rem;
+}
+
+/* Login paragraph styles */
+.login p {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+/* Input field styles */
+input {
+  width: 100%;
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.6rem;
+  font-size: 1.1rem; /* Smaller font size for the input fields */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Login button styles */
+button {
+  margin-top: 2rem;
+  display: block;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem; /* Smaller button size */
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem; /* Smaller font size for the button text */
+  font-weight: 500; /* Less bold font weight */
+  margin: 0 auto; /* Center the button horizontally */
+  margin-top: 4rem;
+}
+
+/* Hover effect for the login button */
+button:hover {
+  background-color: #000000;
+}
